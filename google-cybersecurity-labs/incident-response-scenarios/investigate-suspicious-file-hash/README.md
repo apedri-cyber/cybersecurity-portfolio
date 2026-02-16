@@ -9,6 +9,8 @@
     Enter the file hash into VirusTotal
     Analyze the VirusTotal report
     Determine whether the file is malicious
+    Follow playbook instructions to investigate and resolve the incident's alert ticket.
+    
 
 ## Skills Demonstrated
     Use of VirusTotal to analyze and determine if a file is malicious
