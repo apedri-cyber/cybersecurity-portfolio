@@ -16,5 +16,6 @@
     Use of VirusTotal to analyze and determine if a file is malicious
     Incident Response
     Malware analysis
+    Use a playbook and alert ticket to resolve an incident
     
     
