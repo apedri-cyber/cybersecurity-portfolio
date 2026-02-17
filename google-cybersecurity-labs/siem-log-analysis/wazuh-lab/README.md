@@ -5,6 +5,9 @@
 ## Environment
     Ubuntu 22.04 VM (Wazuh Server)
     Ubuntu 22.04 VM (Monitored Endpoint)
+    Ubuntu 24.04 VM (Wazuh Agent)
+    Kali Linux VM (malicious actor)
+    
 
 ## Setup
     Installed Wazuh Manager
