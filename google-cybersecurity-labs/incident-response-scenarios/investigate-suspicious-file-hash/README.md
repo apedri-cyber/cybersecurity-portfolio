@@ -17,5 +17,15 @@
     Incident Response
     Malware analysis
     Use a playbook and alert ticket to resolve an incident
+
+## Files
+    Alert ticket.pdf 
+  Alert ticket that I documented and escalated
+
+    Phishing incident response playbook.pdf
+  Playbook I used to respond to the phishing incident
+
+    Pyramid of Pain.pdf
+  Explanation of my findings and why the file was malicious, and Pyramid of Pain showing different Indicators of Compromise (IOCs)
     
     
