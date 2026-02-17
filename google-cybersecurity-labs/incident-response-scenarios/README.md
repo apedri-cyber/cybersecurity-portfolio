@@ -8,6 +8,7 @@
     Investigated root cause of the incident
     Performed containment and remediation steps
     Documented findings and response actions
+    Incident Handler's Journal to analyze findings
 
 ## Skills Demonstrated
     Incident identification and triage
