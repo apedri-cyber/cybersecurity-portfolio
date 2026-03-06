@@ -114,4 +114,12 @@ Fires when a single IP exceeds 10 failed SSH attempts within 5 minutes
 Fires when an IP has more than 5 failed attempts and at least 1 successful login — indicating a likely compromised account.
 
 ## Key Findings
+* Generated hundreds of failed SSH attempts in just a few minutes using Hydra—all attempts, whether successful or unsuccessful, were captured by Splunk and displayed  on a SIEM dashboard. This shows how easy it can be for an attacker to gain unauthorized access to an account with weak or default credentials. Implementing MFA and the principle of least privilege can help prevent an attacker from gaining access or limit what they can do if an account is compromised.
+* The brute force detection alert fired multiple times, demonstrating the importance of having reliable alerts. Whenever the number of login attempts reaches a specified threshold, the alert will fire.
+* The successful brute force alert fired when the simulated attacker gained access to the server. This alert is more important than the brute force detection act because we can figure out where the attacker logged in from and take measures to mitigate and eradicate the threat.
+* The dashboard I created showed multiple key findings, such as attack spikes and where most of the attacks come from. This is crucial to incident response. We can block traffic coming from IPs that are on the top 10 IP list. We can also find out if the failed logins occurred outside of normal work hours, which could indicate an attacker was trying to access the server.
+* It's important to configure your alerts to balance between sensitivity and noise. You don't want too many alerts where you are overwhelmed and potentially miss a real security threat. However, you also want to ensure you capture real attacks happening and don't miss them because no alert was made.
+
+## NOTE
+Check the screenshots folder to see pictures of the dashboard, alert configuration, and SPL queries
 
