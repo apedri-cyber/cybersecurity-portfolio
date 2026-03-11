@@ -23,12 +23,12 @@ I simulated an SSH brute force attack using Hydra on a Kali Linux VM. The target
                                                  +------------------+
 
 ## Tools Used
-Splunk Enterprise: SIEM for log ingestion, searching events, and creating dashboards and alerts
-Splunk Universal Forwarder: Collect and forward auth logs from Ubuntu to Splunk
-Hydra: A Kali Linux tool used to simulate an SSH brute force attack
-Ubuntu Server: Target machine generating auth logs
-Kali Linux: Attacker machine conducting brute force attacks on the server
-VMware: Virtualization software
+          Splunk Enterprise: SIEM for log ingestion, searching events, and creating dashboards and alerts
+          Splunk Universal Forwarder: Collect and forward auth logs from Ubuntu to Splunk
+          Hydra: A Kali Linux tool used to simulate an SSH brute force attack
+          Ubuntu Server: Target machine generating auth logs
+          Kali Linux: Attacker machine conducting brute force attacks on the server
+          VMware: Virtualization software
 
 ## Setup & Configuration
 1. Ubuntu Server VM (Target)
@@ -38,6 +38,8 @@ Installed OpenSSH Server:
     bash  sudo apt install openssh-server
 
 Installed and configured Splunk Universal Forwarder to monitor /var/log/auth.log
+
+
 Configured inputs.conf to forward logs to Splunk index ssh_lab:
 
     ini  [monitor:///var/log/auth.log]
@@ -54,9 +56,9 @@ Configured outputs.conf to point at Splunk Enterprise on Windows host:
       server = <splunk-ip>:9997
 2. Splunk Enterprise (Windows Host)
 
-Created index ssh_lab to receive forwarded logs
-Enabled receiving on port 9997
-Confirmed Universal Forwarder connection showing Active
+Created index ssh_lab to receive forwarded logs,
+Enabled receiving on port 9997,
+Confirmed Universal Forwarder connection showing Active.
 
 ## Attack Simulation
 Ran Hydra from Kali Linux targeting the Ubuntu SSH server using the rockyou.txt wordlist:
