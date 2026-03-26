@@ -1,4 +1,4 @@
-# Google Cybersecurity Certificate Labs
+# Portfolio Labs
 
 This section contains summaries of hands-on labs completed during the Google Cybersecurity Professional Certificate program.
 
