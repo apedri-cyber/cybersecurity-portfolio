@@ -1,6 +1,6 @@
 # Portfolio Labs
 
-This section contains summaries of hands-on labs completed during the Google Cybersecurity Professional Certificate program.
+This section contains summaries of hands-on labs completed during the Google Cybersecurity Professional Certificate program and home labs.
 
 ## Areas Covered
 - SIEM log analysis
@@ -10,4 +10,4 @@ This section contains summaries of hands-on labs completed during the Google Cyb
 - Suspicious file investigation
 - Network security monitoring
 
-Each lab involved analyzing simulated security incidents and applying detection and mitigation techniques.
+Each lab involves analyzing simulated security incidents and applying detection and mitigation techniques.
